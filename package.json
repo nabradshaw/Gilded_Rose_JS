@@ -1,0 +1,23 @@
+{
+  "name": "gilded-rose",
+  "version": "1.0.0",
+  "description": "A gilded rose refactoring kata with the apprentices.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "coverage": "istanbul cover _mocha",
+    "test": "_mocha",
+    "test-watch": "_mocha --watch"
+  },
+  "author": "nabradshaw",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "eslint": "^4.3.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0"
+  }
+}
